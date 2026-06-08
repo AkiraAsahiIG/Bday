@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday Letter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PAGE 1 -->
+<section id="page1" class="page active">
+
+  <div class="floating-icons">
+    <span>❤️</span>
+    <span>🐾</span>
+    <span>💖</span>
+    <span>🐾</span>
+    <span>💕</span>
+  </div>
+
+  <div class="envelope-container">
+    <div id="heartBtn" class="heart">❤️</div>
+
+    <div id="envelope" class="envelope">
+      <div class="flap"></div>
+      <div class="envelope-body"></div>
+    </div>
+
+    <div class="click-text">Click Here</div>
+  </div>
+
+</section>
+
+<!-- PAGE 2 -->
+<section id="page2" class="page">
+
+  <div class="letter-box">
+    <h1>💌</h1>
+
+    <p>
+      عيد ميلاد سعيد لأفضل صديقة في العالم ، حكيمة مساء الله بارك الله فيكي ، وفي إصلاحك وانصاتك ودعمك الدائم لنا
+    </p>
+
+    <button id="nextBtn">
+      Next Surprise ➜
+    </button>
+  </div>
+
+</section>
+
+<!-- PAGE 3 -->
+<section id="page3" class="page">
+
+  <div class="cake-page">
+    <h2 id="wishText">✨ Make a Wish ✨</h2>
+
+    <div class="cake-wrap">
+      <div class="candles" id="candles">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="cake">
+        <div class="cake-top"></div>
+        <div class="cake-middle"></div>
+        <div class="cake-base"></div>
+        <div class="cake-plate"></div>
+      </div>
+    </div>
+
+    <button id="blowBtn">Blow Candles 🎂</button>
+  </div>
+
+  <div id="confetti"></div>
+</section>
+
+<audio id="bgMusic" loop>
+  <source src="birthday/bday.mp3" type="audio/mpeg">
+</audio>
+
+<script src="main.js"></script>
+
+</body>
+</html>
